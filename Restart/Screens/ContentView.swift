@@ -19,6 +19,7 @@ struct ContentView: View {
                 HomeView()
             }
         }
+        .animation(.easeOut(duration: 0.4), value: isOnboardingViewActive)
     }
 }
 
